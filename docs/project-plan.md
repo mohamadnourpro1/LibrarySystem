@@ -54,48 +54,48 @@
 ## صور Jira
 
 ### 1️⃣ Backlog Overview
-![Backlog Overview](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15 183943.png)
+![Backlog Overview](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15183943.png)
 توضح هذه الصورة قائمة المهام المقسمة إلى Sprints
 مع توزيع المهام ضمن Epics المختلفة مثل UI/Layout و Documentation.
 
 ---
 
 ### 2️⃣ Board - Initial State
-![Board Initial](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15 184030.png)
+![Board Initial](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15184030.png)
 
 توضح بداية العمل حيث كانت جميع المهام في حالة To Do.
 
 ---
 
 ### 3️⃣ Board - Work In Progress
-![Board Progress](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15 184128.png)
+![Board Progress](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15184128.png)
 
 توضح انتقال المهام من To Do إلى In Progress أثناء التنفيذ.
 
 ---
 
 ### 4️⃣ Start Sprint Configuration
-![Sprint Start](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15 184253.png)
+![Sprint Start](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15184253.png)
 
 توضح إعدادات بدء الـ Sprint (المدة + التاريخ + الهدف).
 
 ---
 
 ### 5️⃣ Sprint Progress
-![Sprint Progress](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15 184452.png)
+![Sprint Progress](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15184452.png)
 
 توضح تقدم العمل أثناء الـ Sprint مع توزيع المهام.
 
 ---
 
 ### 6️⃣ Sprint Completed
-![Sprint Completed](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15 184538.png)
+![Sprint Completed](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15184538.png)
 
 توضح اكتمال جميع المهام وانتقالها إلى Done.
 
 ---
 
 ### 7️⃣ Releases Page
-![Releases Page](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15 184728.png)
+![Releases Page](jira-screenshots/mohamad_nour_almohamad/Screenshot2026-02-15184728.png)
 
 توضح إنشاء Release (v1) مع تتبع التقدم الزمني.
