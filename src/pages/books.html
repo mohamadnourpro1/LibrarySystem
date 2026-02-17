@@ -3,64 +3,73 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>الكتب>/title>
+<title>الكتب</title>
 <link rel="stylesheet" href="../assets/styles/main.css" />
 </head>
+
 <body>
+
 <header class="nav">
-<div class="row"><strong>📚 الكتب>/strong></div>
-<nav class="links">
-<a class="badge" href="../index.html">الرئيسية>/a>
-<a class="badge" href="dashboard.html">التحكم لوحة>/a>
-<a class="badge" href="members.html">الأعضاء>/a>
-<a class="badge" href="loans.html">الإعارات>/a>
-</nav>
+  <div class="row"><strong>📚 الكتب</strong></div>
+  <nav class="links">
+    <a class="badge" href="../index.html">الرئيسية</a>
+    <a class="badge" href="dashboard.html">لوحة التحكم</a>
+    <a class="badge" href="members.html">الأعضاء</a>
+    <a class="badge" href="loans.html">الإعارات</a>
+  </nav>
 </header>
+
 <main class="container">
-<div class="card">
-<div class="row" style="justify-content:space-between">
-<div class="row">
-<input id="searchInput" class="input" placeholder="أو بالعنوان بحث
-</ "...المؤلف
-</div>
-<button id="addBtn" class="btn">+ كتاب إضافة>/button>
-</div>
-<div style="margin-top:12px; overflow:auto;">
-<table class="table">
-<thead>
-<tr>
-<th>العنوان>/th>
-<th>المؤلف>/th>
-<th>السنة>/th>
-<th>الحالة>/th>
-<th>إجراءات>/th>
-</tr>
-</thead>
-<tbody id="booksTbody"></tbody>
-</table>
-</div>
-</div>
+  <div class="card">
+
+    <div class="row" style="justify-content:space-between">
+      <div class="row">
+        <input id="searchInput" class="input" placeholder="بحث بالعنوان أو المؤلف..." />
+      </div>
+      <button id="addBtn" class="btn">+ إضافة كتاب</button>
+    </div>
+
+    <div style="margin-top:12px; overflow:auto;">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>العنوان</th>
+            <th>المؤلف</th>
+            <th>السنة</th>
+            <th>الحالة</th>
+            <th>إجراءات</th>
+          </tr>
+        </thead>
+        <tbody id="booksTbody"></tbody>
+      </table>
+    </div>
+
+  </div>
 </main>
+
 <!-- Modal -->
 <div id="modal" class="modal">
-<div class="box">
-<h3 id="modalTitle">كتاب إضافة>/h3>
-<div class="grid" style="margin-top:10px">
-<input id="titleInput" class="input" placeholder="العنوان "* /<
-<input id="authorInput" class="input" placeholder="المؤلف "* /<
-<input id="yearInput" class="input" type="number"
-</ "السنة"=placeholder
+  <div class="box">
+    <h3 id="modalTitle">إضافة كتاب</h3>
+
+    <div class="grid" style="margin-top:10px">
+      <input id="titleInput" class="input" placeholder="العنوان *" />
+      <input id="authorInput" class="input" placeholder="المؤلف *" />
+      <input id="yearInput" class="input" type="number" placeholder="السنة" />
+    </div>
+
+    <p id="errorText" class="small" style="color:var(--danger);display:none;margin-top:10px"></p>
+
+    <div class="row" style="justify-content:flex-end;margin-top:12px">
+      <button id="cancelBtn" class="btn secondary">إلغاء</button>
+      <button id="saveBtn" class="btn">حفظ</button>
+    </div>
+  </div>
 </div>
-<p id="errorText" class="small" style="color:var(--
-danger);display:none;margin-top:10px"></p>
-<div class="row" style="justify-content:flex-end;margin-top:12px">
-<button id="cancelBtn" class="btn secondary">إلغاء>/button>
-<button id="saveBtn" class="btn">حفظ>/button>
-</div>
-</div>
-</div>
+
 <script src="../assets/js/storage.js"></script>
 <script src="../assets/js/seed.js"></script>
 <script src="../modules/books.js"></script>
+
 </body>
 </html>
